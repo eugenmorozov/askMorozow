@@ -1,0 +1,85 @@
+.btn_im {width: 25px; margin-left: -10px}
+.my_nav {border-radius: 0px}
+.col-md-8 .col-md-4 {border: 10px}
+.my_inp {width: 100px}
+.cust_av{width: 45px; margin-bottom: -30px;margin-top: -30px; border-radius: 30px}
+.usr-panel{width: 160px; margin-right: 100px}
+.container{margin-top: 70px}
+.question {
+  border:1px solid darkgrey;
+  background-color: #9D9D9D;
+  border-radius:10px;
+  padding:10px;
+  background-color: whitesmoke;
+    margin-top:15px;
+    margin-right:55px;
+}
+.tags{
+  margin-top:15px;
+  margin-right:55px; 
+}
+.like {
+    display:inline-block;
+    width:26px;
+    height:26px;
+    margin-top:8px;
+    background-image: url(../img/like.png);
+    background-size:26px 26px;
+}
+
+.post_av{width: 90px; margin-bottom: 5px;margin-top: 10px; border-radius: 430px}
+
+.like {
+    display:inline-block;
+    width:20px;
+    height:20px;
+    margin-top:10px;
+    background-image: url(../img/like.png);
+    background-size:20px 20px;
+}
+.dislike {
+    display:inline-block;
+    width:20px;
+    height:20px;
+    margin-top:10px;
+    background-image: url(../img/dislike.png);
+    background-size:20px 20px;
+}
+.like:hover{
+    background-image: url(../img/black_like.png);
+    
+}
+.like:focus{
+    background-image: url(../img/black_like.png);
+    }
+.dislike:hover{
+    background-image: url(../img/black_dislike.png);
+    }
+.dislike:focus{
+    background-image: url(../img/black_dislike.png);
+    
+}
+
+.q-title a{
+  color:black;
+  text-decoration: none;
+}
+.q-title a:hover{
+  color:#625555;
+  text-decoration: none;
+}
+.aut_form{
+  padding-right: 100px 
+  }
+.new_question{
+  margin-top: 20px;
+  padding:5px;
+}
+.ans_button{
+  margin-top: 10px;
+}
+/** Styling input[type=file] **/
+.btn-file { position: relative; overflow: hidden; margin-right: 4px; }
+.btn-file input { position: absolute; top: 0; right: 0; margin: 0; opacity: 0; filter: alpha(opacity=0);
+    transform: translate(-300px, 0) scale(4); font-size: 23px; direction: ltr; cursor: pointer; }
+/* Fix for IE 7: */

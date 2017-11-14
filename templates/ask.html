@@ -1,0 +1,36 @@
+{%extends "base.html"%}
+{% block content %}
+	    <h3>Ask a question!</h3>
+
+	     	<form class="form-horizontal aut_form">
+  				<fieldset class = "new_question">
+    				<div class="form-group">
+      					<label for="inputTitle" class="control-label col-xs-2">Title</label>
+      					<div class="col-xs-9">
+        					<input  class="form-control" id="inputEmail">
+      					</div>
+    				</div>
+    				
+    				<div class="form-group">
+    					<label class="control-label col-xs-2" for="postalAddress">Text</label>
+    					<div class="col-xs-9">
+      						<textarea rows="10" class="form-control" id="postalAddress" ></textarea>
+    					</div>
+    				</div>
+
+    				<div class="form-group">
+      					<label  class="control-label col-xs-2">Tags</label>
+      					<div class="col-xs-9">
+        					<input type="text" class="form-control" id="inputPassword" >
+      					</div>
+    				</div>
+
+    				<div class="form-group">
+      					<div class="col-xs-offset-2 col-xs-9">
+        					<button type="submit" class="btn btn-primary">Ask!</button>
+      					</div>
+    				</div>
+
+  				</fieldset>
+			</form>
+{% endblock%}

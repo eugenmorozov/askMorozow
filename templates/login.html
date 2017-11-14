@@ -1,0 +1,30 @@
+{% extends "logged_out.html" %}
+
+{% block content %}
+<h3>Log-in</h3>
+
+	     	<form class="form-horizontal aut_form">
+  				<fieldset class = "new_question">
+    				<div class="form-group">
+      					<label for="inputTitle" class="control-label col-xs-2">Login</label>
+      					<div class="col-xs-9">
+        					<input  class="form-control" id="inputEmail">
+      					</div>
+    				</div>
+    				<div class="form-group">
+      					<label for="inputTitle" class="control-label col-xs-2">Password</label>
+      					<div class="col-xs-9">
+        					<input  class="form-control" id="inputEmail">
+      					</div>
+    				</div>
+    				<div class="form-group">
+      					<div class="col-xs-offset-2 col-xs-9">
+        					<button type="submit" class="btn btn-primary">Submit</button>
+      				</div>
+
+  				</fieldset>
+  				<div type="text-centered">
+  				<a>create new account</a>
+  				</div>
+			</form>
+{% endblock %}

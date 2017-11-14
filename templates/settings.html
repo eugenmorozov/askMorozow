@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h3>Settings: NICKNAME</h3>
+
+	     	<form class="form-horizontal aut_form">
+  				<fieldset class = "new_question">
+    				<div class="form-group">
+      					<label for="inputTitle" class="control-label col-xs-2">Login</label>
+      					<div class="col-xs-9">
+        					<input  class="form-control" id="inputEmail">
+      					</div>
+    				</div>
+    				<div class="form-group">
+      					<label for="inputTitle" class="control-label col-xs-2">E-mail</label>
+      					<div class="col-xs-9">
+        					<input  class="form-control" id="inputEmail">
+      					</div>
+    				</div>
+    				<div class="form-group">
+    					<label class="control-label col-xs-2" for="postalAddress">About</label>
+    					<div class="col-xs-9">
+      						<textarea rows="10" class="form-control" id="postalAddress" ></textarea>
+    					</div>
+    				</div>
+
+    				<div class="form-group">
+      					<label  class="control-label col-xs-2">Tags</label>
+      					<div class="col-xs-9">
+        					<input type="text" class="form-control" id="inputPassword" >
+      					</div>
+    				</div>
+    				 
+    				<div class ="form-group">
+    					<label class="control-label col-xs-2" for="postalAddress">Photo</label>
+    					<img src="./img/usrid.jpg" class="img-rounded post_av">
+    					<div class="col-xs-9"><!--controls clearfix-->
+                        			<span class="btn btn-success btn-file">
+                            				<i class="icon-plus"></i> <span>Choose picture...</span>
+                           			 	<input type="file" name="image" id="image" />
+                        			</span>
+                        	<!--http://cyberapp.ru/2013/01/19/twitter-bootstrap-input-file/-->
+                    			</div>
+    				</div>
+    				<div class="form-group">
+      					<div class="col-xs-offset-2 col-xs-9">
+        					<button type="submit" class="btn btn-primary">Save changes</button>
+      					</div>
+    				</div>
+
+  				</fieldset>
+			</form>
+	    
+
+{% endblock %}
